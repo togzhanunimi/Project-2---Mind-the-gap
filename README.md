@@ -31,8 +31,8 @@ Compare baseline vs mitigated models using SS (Stereotype Score) & LM (Language 
  
 
 ## Repository Contents
-- `Project_2_Text_Mining_and_Sentimental_Analysis.pdf` – final project report (7 pages).
-- `Project_2.ipynb` – Jupyter/Colab notebook with code and experiments.
+- `Stereotype_Analysis_Report.pdf` – final project report (7 pages).
+- `Project_2__Stereotype_Analysis_CLEAN.ipynb` – Jupyter/Colab notebook with code and experiments.
 - `README.md` – this file.
 
 ## How to Run
