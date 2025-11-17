@@ -23,19 +23,12 @@ Generate CDA data via gender-swapped profession templates
 
 Fine-tune the model on:
 
-CDA-only data
+- CDA-only data
 
-Balanced CDA + original sentences
+- Balanced CDA + original sentences
 
 Compare baseline vs mitigated models using SS (Stereotype Score) & LM (Language Modeling Score)
-
-## Results
-- **Baseline SS%**: 41.5  
-- **Mitigated SS%**: 0.0  
-- **Baseline LM%**: 95.5  
-- **Mitigated LM%**: 100.0  
-
-The results show that CDA reduced stereotype preference but over-corrected, while fluency was preserved.
+ 
 
 ## Repository Contents
 - `Project_2_Text_Mining_and_Sentimental_Analysis.pdf` – final project report (7 pages).
