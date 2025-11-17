@@ -1,11 +1,33 @@
 # Mind the Gap (P2): Measuring and Mitigating Gender Bias in DistilBERT
 
-## Project Overview
-The aim of this project is to:
-1. Evaluate gender bias in a lightweight transformer model (DistilBERT) using the StereoSet benchmark.
-2. Apply **Counterfactual Data Augmentation (CDA)** by generating gender-swapped profession-related sentences.
-3. Fine-tune the model with CDA data.
-4. Re-evaluate the model and compare baseline vs mitigated results.
+📌 Project Overview
+
+This project analyzes and mitigates gender stereotype bias in the lightweight transformer model DistilBERT using the StereoSet benchmark.
+The workflow follows the official “Mind the Gap” methodology:
+
+Bias Evaluation (baseline)
+
+Counterfactual Data Augmentation (CDA)
+
+Fine-Tuning
+
+Re-evaluation and comparison
+
+All experiments are efficient, transparent, and reproducible.
+
+🎯 Objectives
+
+Evaluate gender bias using Pseudo Log-Likelihood (PLL) on StereoSet
+
+Generate CDA data via gender-swapped profession templates
+
+Fine-tune the model on:
+
+CDA-only data
+
+Balanced CDA + original sentences
+
+Compare baseline vs mitigated models using SS (Stereotype Score) & LM (Language Modeling Score)
 
 ## Results
 - **Baseline SS%**: 41.5  
